@@ -1,0 +1,105 @@
+*{
+    color: #ccd6f6;
+    font-family: "Roboto Mono";
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0A192F;  
+}
+header{
+    width: 100vw;
+    height: 10vh;
+}
+#nav-links-section a,button{
+    font-family: 'Urbanist', sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px ;
+}
+#navbar-logo{
+    width: 72px;
+    height: 72px;
+}
+#nav-links-section, #nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+#nav-links li{
+    list-style-type: none; 
+}
+#nav-links li :hover{
+    color: #64FFDA;
+    font-weight: 500;
+}
+#nav-links a{
+    text-decoration: none;
+}
+#nav-links-section button{
+    background-color: #0A192F;
+    outline: none;
+    border: 1px solid #64FFDA;
+    border-radius: 7px;
+    height: 40px;
+    width: 90px;
+    min-width: auto;
+    min-width: auto;
+    cursor: pointer;
+}
+#nav-links-section button:hover{
+    background-color: rgba(100, 255, 218,0.1);
+}
+
+
+main #hello{
+    color: #64FFDA;
+}
+main #name{
+    font-size: 5.7vw;
+    font-weight: 700;
+    color: #CCD6F6;
+}
+main #headline{
+    font-size: 4.7vw;
+    font-weight: 700;
+    color: #8892B0;
+}
+main #about{
+    font-size: 16px;
+    line-height: 27px;
+    color: #8892B0;
+    max-width: 750px;
+   
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    height: 65vh;
+    gap: 50px;
+}
+main #main{
+    width: 76vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main #social-media-links{
+
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    main #about{
+        font-size: 13px;
+        line-height: 23px;
+    }
+}

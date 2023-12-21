@@ -79,19 +79,47 @@ main #about{
 main{
     display: flex;
     justify-content: space-between;
+    gap: 1.5vw;
     margin-top: 20vh;
     height: 65vh;
-    gap: 50px;
 }
 main #main{
-    width: 76vw;
+    flex: 8;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-main #social-media-links{
-
+main #social-media-links { 
+    position: sticky;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+main .line{
+    position: sticky;
+    background-color: #ccd6f6;
+    width: 1.5px;
+    height: 100px;
+    bottom: 0;
+}
+main #mail a{
+    font-size: 13px;
+    font-weight: 300;
+    transform: rotate(90deg);
+    text-decoration: none;
+    margin-top: 10vw;
+}
+main #mail{
+    position: sticky;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 

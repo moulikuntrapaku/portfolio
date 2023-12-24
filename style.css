@@ -299,6 +299,7 @@ main #main{
         line-height: 23px;
     }
     main{
+        margin-top: 15vh;
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -308,6 +309,10 @@ main #main{
     }
     #about-section{
         flex-direction: column;
+        margin-top: 15vh;
+    }
+    #work, #contact-section, #developer{
+        margin-top: 15vh;
     }
     #in-touch{
         font-size: 30px;
@@ -318,6 +323,12 @@ main #main{
     }
     .line-hr{
         width: 150px;
+    }
+    main #name{
+        font-size: 34px;
+    }
+    main #headline{
+        font-size: 30px;
     }
 
 }

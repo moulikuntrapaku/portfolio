@@ -322,13 +322,26 @@ main #main{
         font-size: 24px;
     }
     .line-hr{
-        width: 150px;
+        width:250px;
+    }
+    main #hello{
+        text-align: center;
     }
     main #name{
-        font-size: 34px;
+        font-size: 40px;
+        text-align: center;
     }
     main #headline{
-        font-size: 30px;
+        font-size: 32px;
+        text-align: center;
     }
+    .head-in-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #see-files{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 }

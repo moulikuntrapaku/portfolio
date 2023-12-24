@@ -34,24 +34,6 @@ const projects = [
         link : "https://github.com/moulikuntrapaku/weather-app",
         description : "A sleek weather app that provides real-time forecasts with a user-friendly interface, delivering accurate weather information at your fingertips.",
         technologies: "React HTML CSS JS"
-    },
-    {
-        title : "Weather App",
-        link : "https://github.com/moulikuntrapaku/weather-app",
-        description : "A sleek weather app that provides real-time forecasts with a user-friendly interface, delivering accurate weather information at your fingertips.",
-        technologies: "React HTML CSS JS"
-    },
-    {
-        title : "Weather App",
-        link : "https://github.com/moulikuntrapaku/weather-app",
-        description : "A sleek weather app that provides real-time forecasts with a user-friendly interface, delivering accurate weather information at your fingertips.",
-        technologies: "React HTML CSS JS"
-    },
-    {
-        title : "Weather App",
-        link : "https://github.com/moulikuntrapaku/weather-app",
-        description : "A sleek weather app that provides real-time forecasts with a user-friendly interface, delivering accurate weather information at your fingertips.",
-        technologies: "React HTML CSS JS"
     }
 ];
 

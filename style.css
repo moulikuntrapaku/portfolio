@@ -131,6 +131,9 @@ main #main{
     display: flex;
     margin-top: 40vh;
 }
+.head-in-section{
+    margin-bottom: 40px;
+}
 #about-section #matter{
     flex: 6;
     font-size: 16px;
@@ -138,11 +141,12 @@ main #main{
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     text-align: justify;
 }
 #about-section  p, #skills li{
     color: #8892B0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #about-section #profile-pic{
@@ -152,18 +156,19 @@ main #main{
 }
 #about-section #profile-pic img{
     width: 350px;
-    height: 350px;
+    height: 400px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 #about-section #matter #skills{
     display: flex;
     justify-content: space-between;
 }
-#about-section #matter #skills ul{
-    list-style-type: none;
+#skills ul{
+    list-style-position:inside;
 }
 
 .line-hr{
@@ -199,25 +204,32 @@ main #main{
     padding: 20px 20px 20px 30px;
 }
 .project-icon-holder{
+    flex: 3;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
 }
 .project-title{
+    flex: 2;
     font-size: 17px;
     color: #FFFFFF;
     font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
 }
 .project-description{
     color: #8892B0;
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
+    text-align: justify;
+    font-family: 'Urbanist', sans-serif;
+    flex: 5;
 }
 .project-skills{
     font-size: 12px;
     color: #8892B0;
+    flex: 1;
 }
 .project-box:hover .project-title{
     color: #64FFDA;
@@ -226,12 +238,13 @@ main #main{
     color: #64FFDA;
 }
 .label-in-section{
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 500;
     color: #CCD6F6;
+    font-family: 'Urbanist', sans-serif;
 }
 .number-in-section{
-    font-size: 23px;
+    font-size: 32px;
     color: #64FFDA;
 }
 .head-in-section{
@@ -263,6 +276,8 @@ main #main{
     color: #CCD6F6;
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
+    
 }
 #send-message{
     background-color: #0A192F;
@@ -343,6 +358,8 @@ main #main{
     .section-header{
         display: flex;
         gap: 5px;
+        align-items: center;
+        justify-content: center;
     }
 
 }

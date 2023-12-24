@@ -35,6 +35,9 @@ header{
 #nav-links li{
     list-style-type: none; 
 }
+#nav-links li i{
+    display: none;
+}
 #nav-links li :hover{
     color: #64FFDA;
     font-weight: 500;
@@ -71,7 +74,6 @@ main #headline{
     color: #8892B0;
 }
 main #about{
-    font-size: 16px;
     line-height: 27px;
     color: #8892B0;
     max-width: 750px;
@@ -131,13 +133,17 @@ main #main{
 #about-section #matter{
     flex: 6;
     font-size: 16px;
-    color: #8892B0;
     line-height: 27px;
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    text-align: justify;
 }
+#about-section  p, #skills li{
+    color: #8892B0;
+}
+
 #about-section #profile-pic{
     flex: 4;
     display: flex;
@@ -175,6 +181,7 @@ main #main{
 #project-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .project-box{
@@ -183,8 +190,8 @@ main #main{
     cursor: pointer;
     width: 300px;
     height: 300px;
+    margin-top: 25px;
     border-radius: 10px;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -258,13 +265,17 @@ main #main{
 }
 #send-message{
     background-color: #0A192F;
-    outline: none;
     border: 1px solid #64FFDA;
     border-radius: 7px;
     height: 55px;
     width: 130px;
     cursor: pointer;
     color: #64FFDA;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
 }
 #send-message:hover{
     background-color: rgba(100, 255, 218,0.1);
@@ -283,8 +294,29 @@ main #main{
     margin-bottom: 50px;
 }
 @media only screen and (max-width: 650px) {
-    main #about{
-        font-size: 13px;
+    main #main #about{
         line-height: 23px;
     }
+    main{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #nav-links, #social-media-links, #mail{
+        display: none;
+    }
+    #about-section{
+        flex-direction: column;
+    }
+    #in-touch{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .label-in-section{
+        font-size: 24px;
+    }
+    .line-hr{
+        width: 150px;
+    }
+
 }

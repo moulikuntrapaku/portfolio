@@ -7,10 +7,9 @@
 }
 body{
     background-color: #0A192F;
-    overflow-x: hidden;
+    box-sizing: border-box;
 }
 header{
-    width: 100vw;
     height: 10vh;
 }
 #nav-links-section a,button{
@@ -101,6 +100,9 @@ main{
     width: 1.5px;
     height: 80px;
 }
+#dsa-2{
+    display: none;
+}
 #mail a{
     font-size: 13px;
     font-weight: 300;
@@ -136,7 +138,7 @@ main #main{
 }
 #about-section #matter{
     flex: 6;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 27px;
     height: auto;
     display: flex;
@@ -156,16 +158,15 @@ main #main{
 }
 #about-section #profile-pic img{
     width: 350px;
-    height: 400px;
+    height: 350px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-left: 40px;
 }
 #about-section #matter #skills{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #skills ul{
     list-style-position:inside;
@@ -204,7 +205,7 @@ main #main{
     padding: 20px 20px 20px 30px;
 }
 .project-icon-holder{
-    flex: 3;
+    flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -212,6 +213,8 @@ main #main{
 }
 .project-title{
     flex: 2;
+    display: flex;
+    align-items: center;
     font-size: 17px;
     color: #FFFFFF;
     font-weight: 700;
@@ -219,8 +222,6 @@ main #main{
 }
 .project-description{
     color: #8892B0;
-    font-size: 14px;
-    font-weight: 500;
     line-height: 21px;
     text-align: justify;
     font-family: 'Urbanist', sans-serif;
@@ -292,6 +293,7 @@ main #main{
     align-items: center;
     justify-content: center;
     font-size: 14px;
+    margin-top: 20px;
 }
 #send-message:hover{
     background-color: rgba(100, 255, 218,0.1);
@@ -310,9 +312,6 @@ main #main{
     margin-bottom: 50px;
 }
 @media only screen and (max-width: 650px) {
-    main #main #about{
-        line-height: 23px;
-    }
     main{
         margin-top: 15vh;
         margin-left: 4vw;
@@ -360,6 +359,12 @@ main #main{
         gap: 5px;
         align-items: center;
         justify-content: center;
+    }
+    #dsa-2{
+        display:list-item;
+    }
+    #dsa-1{
+        display: none;
     }
 
 }
